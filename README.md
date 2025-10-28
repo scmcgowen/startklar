@@ -1,6 +1,6 @@
-# Startklar
+# SpawnLytra
 
-Startklar is a server-side Fabric mod for modern Minecraft versions that allows players to fly away without Elytra's
+SpawnLytra is a server-side Fabric mod for modern Minecraft versions that allows players to fly away without Elytra's
 from the spawn.
 
 When a player is jumping off of a cliff near the world spawn on the overworld, or press space twice, they automatically start flying. In this
@@ -44,6 +44,7 @@ affectCreativePlayers = false
 ***
 
 ## Original by Sammy
+This project is a fork of Sammy's Startklar.
 The original project by Sammy can be found at
 https://codeberg.org/SammyForReal/startklar
 
