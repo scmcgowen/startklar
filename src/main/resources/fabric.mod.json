@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "startklar",
+	"version": "${version}",
+	"name": "Startklar",
+	"description": "Alternative to /rtp that allows players to fly away with a boost from spawn!",
+	"authors": [
+		"Sammy L. Koch",
+        "Herr Katze"
+	],
+	"contact": {
+		"homepage": "https://kleinbox.dev/",
+		"sources": "https://github.com/scmcgowen/Startklar"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/startklar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.herrkatze.startklar.Startklar"
+		]
+	},
+	"mixins": [
+		"startklar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+        "fabric-permissions-api-v0": "*"
+	}
+}
